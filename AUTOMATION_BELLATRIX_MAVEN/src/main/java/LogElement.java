@@ -1,7 +1,6 @@
 import org.openqa.selenium.By;
 
 public class LogElement extends ElementDecorator{
-	
 	public LogElement(Element element) {
 		super(element);
 		// TODO Auto-generated constructor stub

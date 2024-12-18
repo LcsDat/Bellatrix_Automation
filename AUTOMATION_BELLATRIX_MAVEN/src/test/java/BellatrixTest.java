@@ -44,7 +44,7 @@ public class BellatrixTest {
 	public void beforeMethod() {
 		stopwatch = Stopwatch.createStarted();
 		driver = new LoggingDriver(new WebCoreDriver());
-		driver.startBrowser(Driver.Browser.CHROME);
+		driver.startBrowser(Browser.CHROME);
 		driver.maximize();
 		System.out.println(String.format("Browser init time: %d", stopwatch.elapsed(TimeUnit.SECONDS)));
 	}

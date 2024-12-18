@@ -14,7 +14,7 @@ public class DriverDecorator extends Driver{
 
 	
 	@Override
-	public void startBrowser(Driver.Browser browser) {
+	public void startBrowser(Browser browser) {
 		// TODO Auto-generated method stub
 		driver.startBrowser(browser);
 	}

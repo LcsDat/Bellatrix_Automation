@@ -4,8 +4,9 @@ import org.openqa.selenium.By;
 
 public class LoggingDriver extends DriverDecorator{
 
+	
 	@Override
-	public void startBrowser(Driver.Browser browser) {
+	public void startBrowser(Browser browser) {
 		// TODO Auto-generated method stub
 		System.out.println(String.format("Start browser = %s", browser.name()));
 		driver.startBrowser(browser);

@@ -20,7 +20,7 @@ public class WebCoreDriver extends Driver{
 	private WebDriverWait webDriverWait;
 	
 	@Override
-	public void startBrowser(Driver.Browser browser) {
+	public void startBrowser(Browser browser) {
 		// TODO Auto-generated method stub
 		webDriver =  switch(browser) {
 		case CHROME -> {yield new ChromeDriver();}

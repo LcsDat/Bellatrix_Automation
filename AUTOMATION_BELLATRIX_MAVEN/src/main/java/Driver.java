@@ -13,9 +13,5 @@ public abstract class Driver {
 	public abstract void waitForAjax();
 	public abstract void waitUntilPageLoadsCompletely();
 	
-	public enum Browser{
-		CHROME, FIREFOX, EDGE, OPERA, SAFARI, INTERNET_EXPLORER
-	}
 
-	
 }
